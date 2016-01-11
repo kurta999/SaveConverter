@@ -11,10 +11,6 @@
 
 public OnFilterScriptInit()
 {
-	print("\n----------------------------------");
-	print("Gangzone Creator v1.0 by IntrozeN");
-	print("----------------------------------\n");
-
 	new
 		File:fSavefile = fopen("savedpositions.txt", io_read),
 		File:fOutput = fopen("f_savedpositions.txt", io_write),
